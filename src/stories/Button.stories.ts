@@ -11,6 +11,10 @@ const meta = {
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout
     layout: 'centered',
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/3xMSel6kgGx0IKI92JQpnW/-v11--Carbon-Design-System--Community-?node-id=1880-3855&t=BqfJpnqJ6DmrT6mN-4",
+    },
   },
   // This component will have an automatically generated Autodocs entry: https://storybook.js.org/docs/writing-docs/autodocs
   tags: ['autodocs'],
@@ -30,6 +34,7 @@ export const Primary: Story = {
   args: {
     primary: true,
     label: 'Button',
+    size: "medium"
   },
 };
 
@@ -51,4 +56,11 @@ export const Small: Story = {
     size: 'small',
     label: 'Button',
   },
+};
+
+export const Teststorynew: Story = {
+  args: {
+    primary: false,
+    label: "Button"
+  }
 };

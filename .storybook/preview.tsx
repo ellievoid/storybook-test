@@ -2,6 +2,10 @@ import type { Preview } from '@storybook/react-vite'
 
 const preview: Preview = {
   parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/design/3xMSel6kgGx0IKI92JQpnW/-v11--Carbon-Design-System--Community-?node-id=58-2763&t=BqfJpnqJ6DmrT6mN-1",
+    },
     controls: {
       matchers: {
        color: /(background|color)$/i,
